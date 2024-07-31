@@ -1,6 +1,8 @@
 DROP DATABASE IF EXISTS employeeTracker_db;
 CREATE DATABASE employeeTracker_db;
 
+\c employeeTracker_db;
+
 CREATE TABLE department (
     id SERIAL PRIMARY KEY,
     department_name VARCHAR(30)  NOT NULL
